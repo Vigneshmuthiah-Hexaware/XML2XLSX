@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML2XLSX", "XML2XLSX\XML2XLSX.csproj", "{8E24CBA1-5B64-4DC9-9AF7-D1B86140374F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E24CBA1-5B64-4DC9-9AF7-D1B86140374F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E24CBA1-5B64-4DC9-9AF7-D1B86140374F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E24CBA1-5B64-4DC9-9AF7-D1B86140374F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E24CBA1-5B64-4DC9-9AF7-D1B86140374F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775B6DD8-DD91-4FCD-A8B4-9F49B75787D5}
+	EndGlobalSection
+EndGlobal
