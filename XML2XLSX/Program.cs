@@ -17,7 +17,7 @@ namespace XML2XLSX
             DataSet ds = new DataSet();
 
             //Convert the XML into Dataset
-            ds.ReadXml(@"D:\InformaticaToTalend-UnitTesting\m_all_trans_csvora_csvora_wrk_wo_pre.xml");
+            ds.ReadXml(@"D:\file.xml");
 
 
             //Create workbook object
