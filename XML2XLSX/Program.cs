@@ -12,17 +12,15 @@ namespace XML2XLSX
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            Console.WriteLine("Start!");
-
+            
             DataSet ds = new DataSet();
 
+            Console.WriteLine("XML file name with full path:");
+            string filepath = Console.ReadLine();
             //Convert the XML into Dataset
-            ds.ReadXml(@"D:\file.xml");
+            ds.ReadXml(filepath);
 
-
-            //Create workbook object
-            string str = @"D:\InformaticaToTalend-UnitTesting\ExcelOutput\";
-
+            Console.WriteLine("Start!");
 
             try
             {
